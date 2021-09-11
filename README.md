@@ -6,7 +6,7 @@ sudo docker run -p 5000:5000 -it --name Ubuntu1804 ubuntu:18.04 /bin/bash
 ```
 apt update &&
 apt install -y git && 
-git clone https://github.com/Kira5005-code/Zoom-Youtube-Publisher.git
+git clone https://github.com/Kira5005-code/Zoom-Youtube-Publisher.git &&
 cd Zoom-Youtube-Publisher &&
 apt-get install -y --no-install-recommends python3.5 python3-pip && rm -rf /var/lib/apt/lists/* &&
 pip3 install virtualenv &&
